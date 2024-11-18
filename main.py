@@ -3,12 +3,12 @@ from helpermodules.correlation_study import CorrelationAnalysis
 from models.lstm import prepare_lstm_data, train_lstm, evaluate_model
 import pandas as pd
 
-# Caricamento e pulizia dati (già presente nel main)
 df_nasdaq = IndexData_Retrieval(
     filename='nasdaq_dataframe',
     index='NASDAQ-100',
     months=2,
-    frequency='1min'
+    frequency='1min',
+    use_yfinance=True
 )
 
 # load data, clean data frame (closing stock prices)
