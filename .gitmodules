@@ -1,3 +1,0 @@
-[submodule "helpermodules"]
-	path = helpermodules
-	url = git@github.com:quantfin-sfpolimi/helpermodules.git
