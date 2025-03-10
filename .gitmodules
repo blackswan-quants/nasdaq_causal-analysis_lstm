@@ -1,3 +1,0 @@
-[submodule "nasdaq_causal-analysis_lstm"]
-	path = nasdaq_causal-analysis_lstm
-	url = https://github.com/quantfin-sfpolimi/nasdaq_causal-analysis_lstm.git
